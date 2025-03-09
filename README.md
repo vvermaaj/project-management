@@ -19,61 +19,95 @@ Features
 ✅ Notification System – Email-based invitations and project updates.
 
 Tech Stack
+
 Frontend
+
 React.js
+
 Redux
+
 Tailwind CSS
+
 Backend
+
 Spring Boot (Java)
+
 Spring Security (Authentication & Authorization)
+
 MySQL (Database)
+
 Jakarta Mail API (Email notifications)
+
 Deployment
+
 Docker
+
 AWS / Heroku
+
 Installation Guide
+
 1. Clone the repository
-bash
-Copy
-Edit
-git clone [https://github.com/your-username/projectmanagementsystem.git](https://github.com/vvermaaj/project-management)
-cd projectmanagementsystem
+
+
+
+git clone https://github.com/vvermaaj/project-management
+
+cd project-management
+
 2. Setup Backend
+   
 Navigate to the backend folder:
-bash
-Copy
-Edit
+
 cd backend
+
 Install dependencies & run the server:
+
 bash
+
 Copy
+
 Edit
+
 mvn clean install
+
 mvn spring-boot:run
-3. Setup Frontend
+
+4. Setup Frontend
+   
 Navigate to the frontend folder:
-bash
-Copy
-Edit
+
+
 cd frontend
+
 Install dependencies & start the React app:
-bash
-Copy
-Edit
+
 npm install
+
 npm start
+
 API Endpoints
+
 Method	Endpoint	Description
+
 POST	/api/auth/register	Register a new user
+
 POST	/api/auth/login	User login
+
 GET	/api/projects	Fetch all projects
+
 POST	/api/projects	Create a new project
+
 PATCH	/api/projects/{id}	Update a project
+
 DELETE	/api/projects/{id}	Delete a project
+
 POST	/api/projects/invite	Invite a user to a project
+
 Contributing
+
 Contributions are welcome! Feel free to submit a pull request or report issues.
 
 License
+
 This project is MIT Licensed.
 
