@@ -4,11 +4,17 @@ The Project Management System is a web-based application designed to help teams 
 
 Features
 ✅ User Authentication – Secure login & registration using JWT.
+
 ✅ Project Creation & Management – Users can create and update projects.
+
 ✅ Task Assignment – Assign tasks to team members with deadlines.
+
 ✅ Team Collaboration – Invite users via email and manage project members.
+
 ✅ Search & Filter – Find projects based on keywords, categories, and tags.
+
 ✅ Real-time Chat – Integrated chat system for team communication.
+
 ✅ Notification System – Email-based invitations and project updates.
 
 Tech Stack
