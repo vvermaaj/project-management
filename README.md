@@ -23,6 +23,7 @@ Tech Stack
 Frontend
 
 React.js
+
 ShadCn UI
 
 Redux
