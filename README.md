@@ -3,6 +3,7 @@ Overview
 The Project Management System is a web-based application designed to help teams collaborate efficiently on projects. It allows users to create, manage, and track projects while assigning tasks to team members. The system supports user authentication, project invitations, and real-time chat features.
 
 Features
+
 ✅ User Authentication – Secure login & registration using JWT.
 
 ✅ Project Creation & Management – Users can create and update projects.
@@ -35,7 +36,7 @@ Installation Guide
 bash
 Copy
 Edit
-git clone https://github.com/your-username/projectmanagementsystem.git
+git clone [https://github.com/your-username/projectmanagementsystem.git](https://github.com/vvermaaj/project-management)
 cd projectmanagementsystem
 2. Setup Backend
 Navigate to the backend folder:
